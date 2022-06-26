@@ -1,0 +1,169 @@
+#include <iostream>
+#include <conio.h>
+#include <stdlib.h>
+#include <windows.h>
+using namespace std;
+int main()
+{
+	char name[50];
+	cout << "Please enter your player name." << endl;
+	cin.getline(name, 50);
+	;cout << "Alright, thank you! " << name << " I will now proceed to take you on an adventure." 
+	
+	;cout << "\n----------------------Press any key to continue----------------------" << endl;
+	_getch();
+	
+	;cout << name << " has been having weird dreams lately." << endl;
+	;cout << "The closest thing " << name << " would come to describe them as would probably be lucid dreaming." << endl;
+	;cout << "Well, the dreams are more like nightmares. Lucid nightmares." << endl;
+	;cout << "The doctor says it might be because " << name << " has been under a lot of stress lately. Has " << name << " really?" << endl;
+	;cout << "Regardless, the nights have become difficult lately." << endl;
+	;cout << "Still one must sleep, at least 8 hours per night. " << name << " you should cover yourself with a blanket and try to fall asleep" << endl;
+	
+	;cout << name << endl;
+
+	;cout << "You find yourself falling asleep" << endl;
+	
+	;cout << "\n----------------------Press any key to continue----------------------" << endl;
+	_getch();	
+
+	
+system("cls");
+	int choiceOne_Path;
+	cout << "In your dream, you walk around a big field." << endl;
+	cout << "The sky is bright blue and it reminds you of the ocean. You think it might be pulsating, like waves, too." << endl;
+	cout << "Starring at it for to long makes you a little dizzy." << endl;
+	cout << "When you turn your gaze to the field you notice you are not alone here." << endl;
+	cout << "Some distance from you there is a large orange serpent." << endl;
+	cout << "Its long body seems to be tangling around itself. Its head appears to be just a skull, filled to the brim with sharp teeth." << endl;
+	
+	
+	
+	
+	
+	
+	cout << "\t >> Enter '1' to Approach the creature." << endl;
+	cout << "\t >> Enter '2' to Turn your gaze back to the sky." << endl;
+	cin >> choiceOne_Path;
+	if(choiceOne_Path == 1)
+	{
+		cout << "You take a few steps forward. The creature looks directly at you. You notice a faint glow in the empty skull sockets of its eyes." << endl;
+		cout << "You take a few precious moments to stare at each other. And then it begins to float away." << endl;
+		cout << "You attempt to chase it. You did not expect it to be so fast, not with its body tangled like that posture." <<endl;
+		cout << "Still you continue to running until the dream ends. Somewhere behind you, you hear a loud splash." <<endl;
+		
+		cout << "The alarm clock rings." << endl;
+		cout << "You wake up but the image of the creature lingers in your mind for a little longer than you would have liked." << endl;
+		cout << "You dress up, eat breakfast and head over to work. On your way you pass your neighbours orange house." <<endl;
+		
+		cout << "\n----------------------Press any key to continue----------------------" << endl;
+		_getch();
+			
+			cout << "You come home from work. It was an okay day you think." << endl;
+			cout << "You decide to sleep early because you have to wake up for the morning shift tomorrow." << endl;
+			cout << "You cover yourself with a blanket and slowly fall asleep." << endl;
+			
+			cout << "\n----------------------Press any key to continue----------------------" << endl;
+			_getch();
+			
+			cout << "You stand in a narrow corridor. There is a door in front of you, a massive metal door." << endl;
+			cout << "Something is leaking down beneath it, dripping into the corridor, red and thick." << endl;
+			cout << "You register the smell of it. It smells of iron and it’s making you dizzy." << endl;
+			cout << "More and more flows inside the room." << endl;
+			cout << "Soon you notice it making splashing noises under your boots." << endl;
+			cout << "You register the smell of it. It smells of iron and it is making you dizzy." << endl;
+			
+			cout << "\t >> Enter '1' to Try turning back." << endl;
+			cout << "\t >> Enter '2' to Break the window and try to escape through it." << endl;
+			int choiceOne_PathForward;
+			cin >> choiceOne_PathForward;
+			if(choiceOne_PathForward == 1)
+			{ 
+					cout << "You turn back but there is nothing behind you. Just a plain metal wall." << endl;
+					cout << "More and more fluid makes it through the door and it slowly starts to reach your ankles." << endl;
+					cout << "It keeps flowing in more and more and more and with higher frequency, quickly filling the room and staining your clothes." << endl;
+					cout << "You are practically swimming in it now and you desperately try to stop yourself from screaming because you begin to worry it will get into your mouth." << endl;
+					cout << "Soon enough it does, strange metallic taste breaking into your mouth, reaching your nose." << endl;
+					cout << "Soon enough you are beneath the surface and there is nothing but the sea of red, violating your lungs and choking you down." << endl;
+					cout << "And it hurts in a very particular, heavy way, your throat and nose are being burnt with fire from the inside." << endl;
+					cout << "Soon there is nothing but pain and red-stained darkness." << endl;
+					cout << "Even in the dark, you can not escape the crimson." << endl;
+					
+					cout << "Somewhere in the distance, the alarm clock rings. Soon, you cannot hear it any longer. You do not wake up." << endl;
+					system("Color 0C");
+					cout<<"======= ======= ======= ======= "<<endl;
+					cout<<"======= Crimson Red.    ======= "<<endl;
+					cout<<"======= ======= ======= ======= "<<endl;
+					cout << "\n----------------------Press any key to continue----------------------" << endl;
+					
+			}
+			else if(choiceOne_PathForward == 2)
+		{
+			cout << "You squeeze through the small cabin window like it is nothing." << endl;
+					cout << "You briefly wonder where the window even came from but it does not matter because you are out." << endl;
+					cout << "Out where?" << endl;
+					cout << "There is nothing around you but the vastness of space and from there you can see that the corridor you escaped is actually a massive tube that stretches across the galaxies." << endl;
+					cout << "Next to it, is a massive slender shape, its colour brightly orange with deep blue stripes." << endl;
+					cout << "Upon closer inspection you notice there is a wound in it, violently bleeding into the tunnels." << endl;
+					cout << "You follow the slender body and look up. Something looks right back at you." << endl;
+			
+					cout << "The alarm clock rings." << endl;
+					cout << "You had a dream about something but you can not quite remember what it was." << endl;
+					cout << "However, for a while, you can not shake off the feeling that someone (or something) is looking at you." << endl;
+					cout << "You dress up, eat breakfast and head over to work." << endl;
+					cout << "On your way you pass your neighbours orange house." << endl;
+					
+					cout << "\n----------------------Press any key to continue----------------------" << endl;
+					_getch();
+					
+					cout << "You come home from work. It was an okay day you think." << endl;
+					cout << "You decide to sleep early because you have to wake up for yet another morning shift tomorrow." << endl;
+					cout << "You cover yourself with a blanket and slowly fall asleep." << endl;
+					
+					cout << "In your dream, the sky is bright pink." << endl;
+					cout << "The sky is bright pink and the concrete poles are alive." << endl;
+					cout << "They are walking, dragging the cables alongside them, crudely marching forward." << endl;
+					cout << "They are all going in the same direction, leaving pits in the street. You follow them." << endl;
+					cout << "You look forward, to the horizon and realise they are marching towards the Orange Beast. You remember it from last night." << endl;
+					cout << "Towards its giant face. It looks up from the sky and takes over the whole horizon." << endl;
+					cout << "The concrete poles walk right into its open mouth and it crunches crunches crunches." << endl;
+					cout << "You wonder how big it actually is. Once you approach it, it begins to speak." << endl;
+					cout << "“26421783Y12532632T42635DWEGTRYEWR41523W12355%%%%&&%%^$24245346775” It says." << endl;
+					cout << "You do not really understand it." << endl;
+					cout << "Still the beast contines to speak. And you listen." << endl;
+					cout << "Somewhere in the distance, the alarm clock rings. The beasts words speak over it. You do not wake up." << endl;
+					system("Color 0E");
+					cout<<"======= ======= ======= ======= "<<endl;
+					cout<<"======= Orange Beast.   ======= "<<endl;
+					cout<<"======= ======= ======= ======= "<<endl;
+					cout << "\n----------------------Press any key to continue----------------------" << endl;
+					
+		}
+	}
+	else if(choiceOne_Path == 2)
+	{
+		cout << "The sky… You notice it gets more and more draped. Then you start feeling the “rain”, falling right down at you from the cracks in the sky." << endl;
+		cout << "The sky is falling apart and you can’t help yourself." << endl;
+		cout << "You keep staring as the endless blue above you fractures right in front of your very eyes." << endl;
+		cout << "The sky cracks and falls and there is so much water." << endl;
+		cout << " Before it completely covers you up you notice it tastes a little salty." << endl;
+		
+		cout << "The alarm clock rings." << endl;
+		cout << "You keep trying to wake up but the water is still rising." << endl;
+		cout << "It gets in your mouth and you notice it is a little salty." <<endl;
+		cout << "Somewhere in the distance, the alarm clock keeps ringing. The water is now in your lungs. You do not wake up." << endl;
+		
+		
+		system("Color 09");
+		cout<<"======= ======= ======= ======= "<<endl;
+		cout<<"======= Sea.            ======= "<<endl;
+		cout<<"======= ======= ======= ======= "<<endl;
+		
+		
+		cout << "\n----------------------Press any key to continue----------------------" << endl;
+		_getch();
+		
+		
+	}
+
+}
